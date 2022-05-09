@@ -1,0 +1,10 @@
+├── base
+│   ├── deployment.yaml
+│   └── kustomization.yaml
+└── overlays
+    ├── dev
+    │   ├── kustomization.yaml
+    │   └── replica_limits.yaml
+    └── stage
+        ├── kustomization.yaml
+        └── replica_limits.yaml
